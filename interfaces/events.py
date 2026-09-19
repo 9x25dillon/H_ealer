@@ -1,0 +1,3 @@
+class EventSink(Protocol):
+    def emit(self, event: ExperimentEvent) -> None:
+        ...
